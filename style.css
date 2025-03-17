@@ -1,0 +1,220 @@
+*{
+    margin-top: 0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+.box{
+    padding: 6px;
+    margin: 2px;
+    border: 1px solid rgb(194, 188, 188);
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.white{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.main{
+   
+    filter: brightness(30%);
+    background-repeat: no-repeat;
+   border-radius: 4px;
+    background-size: cover; 
+   
+    width: 100vw; 
+    height: 500px;
+}
+.center{
+    text-align: center;
+}
+.nav{
+    width: 600px;
+}
+.justi-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.position{
+    position: relative;
+    top:-450px;
+}
+.main-heading{
+    font-family: "Kanit", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 100px;
+  margin: 0%;
+}
+.margin{
+    position: relative;
+    top: -200px;
+}
+.box-item{
+    width: 300px; 
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: transform 0.3s ease;
+   
+}
+.image-box{
+    height:250px;
+    width: 300px;
+    border-radius: 16px 160x 0px 0px;
+   
+}
+.content{
+    padding: 20px;
+}
+.box-item:hover {
+    transform: translateY(-20px); 
+}
+.box-image{
+height: 350px;
+width: 250px;
+border-radius: 10px;
+transition: transform 0.3s ease;
+overflow: hidden; 
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+margin: 20px;
+margin-top: 0%;
+}
+.bottom{
+    position: relative;
+    top: -150px;
+    padding: 10px;
+}
+.collection{
+    margin-left: 250px;
+    font-size: larger;
+    position: relative;
+    top: -200px;
+}
+.sec-collection{
+    position: relative;
+    top: -150px;
+}
+.box-image:hover {
+    transform: translateY(-20px); /* Lift box on hover */
+}
+.box-popular{
+    box-shadow: 4px 4px 4px black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
+h4{
+    margin: 0;
+}
+h3{
+    margin: 0%;
+}
+.gray{
+    color: gray;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.app-zomato{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.app-button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(188, 10, 10);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app {
+   font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+}
+.google-button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(8, 3, 31);
+}
+.box-zomato{
+    margin-top: 60px;
+}
+input[type="radio"]:checked {
+   color: rgb(249, 36, 36);
+   background-color: brown;
+}
+.input-field{
+    width: 300px;
+    border-radius: 10px;
+    margin: 3px;
+}
+.flex-dir{
+    margin:10px 100px 10px 250px ;
+}
+a{
+    text-decoration: none;
+}
+.item{
+    box-shadow: 1px 1px 2px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.main-para{
+    font-size: 30px;
+}
+.margin-contact{
+    margin: 30px;
+}
+.main-input{
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.contact{
+    background-color: rgb(219, 216, 216);
+    padding: 40px;
+    border-radius: 30px;
+}
+.zomata{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items-style{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+select{
+   
+    appearance: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(219, 216, 216);
+}
+.black li {
+    color: black;
+}
+.social{
+    width:100px
+}
